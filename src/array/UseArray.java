@@ -9,6 +9,7 @@ public class UseArray {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Enter some numbers: ");
 
+        System.out.println("Storing data into Array");
         for(int j=0; j<array.length; j++) {
             array[j] = sc.nextInt();
         }
