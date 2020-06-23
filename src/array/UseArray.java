@@ -13,6 +13,7 @@ public class UseArray {
             array[j] = sc.nextInt();
         }
 
+        System.out.println("Retrieving data from Array");
         for(int i=0; i<array.length; i++) {
             System.out.println(array[i]);
         }
